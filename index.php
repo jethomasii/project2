@@ -25,13 +25,13 @@
 			<p class='options'>
 
 				<label for='number_of_words'># of Words</label>
-				<input maxlength=1 type='text' name='number_of_words' id='number_of_words' value=''>  (Max 9)
+				<input maxlength=1 type='text' name='number_of_words' id='number_of_words' value=<?php echo $passLength ?>>  (Max 9)
 				<br>
 
-				<input type='checkbox' name='add_number' id='add_number' >
+				<input type='checkbox' name='add_number' id='add_number' <?php echo $numberChecked ?>>
 				<label for='add_number'>Add a number</label>
 				<br>
-				<input type='checkbox' name='add_symbol' id='add_symbol' >
+				<input type='checkbox' name='add_symbol' id='add_symbol' <?php echo $specialChecked ?>>
 				<label for='add_symbol'>Add a symbol</label>
 			</p>
 
