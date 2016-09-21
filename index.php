@@ -44,6 +44,8 @@
 			<?php foreach($params as $key => $value) { ?>
 			     <?php echo $key; ?> equals <?php echo $value ?><br>
 			<?php } ?>
+			
+			<?php echo $passLength ?>
 			</p>
 			
 		</form>
