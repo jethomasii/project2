@@ -15,7 +15,7 @@
 
 
 	<div class='container'>
-		<h1>xkcd Password Generator</h1>
+		<h1 class='title'>xkcd Password Generator</h1>
 
 		<p class='password'>
 			<?php echo $password ?>
@@ -33,20 +33,11 @@
 				<br>
 				<input type='checkbox' name='add_symbol' id='add_symbol' <?php echo $specialChecked ?>>
 				<label for='add_symbol'>Add a symbol</label>
+				
 			</p>
 
 			<input type='submit' class='btn btn-default' value='Gimme Another'>
 
-							<div class='error'>
-									</div>
-			<p>
-			
-			<?php foreach($params as $key => $value) { ?>
-			     <?php echo $key; ?> equals <?php echo $value ?><br>
-			<?php } ?>
-			
-			<?php echo $passLength ?>
-			</p>
 			
 		</form>
 

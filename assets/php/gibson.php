@@ -1,18 +1,4 @@
 <?php
-/*
-$allTheWords = [
-    "crazy",
-    "hedgehog",
-    "monkey",
-    "boat",
-    "fungus",
-    "test",
-    "serpant",
-    "spray",
-    "house",
-    "country",
-];
-*/
 
 # Declare variables
 $allTheWords = [];
