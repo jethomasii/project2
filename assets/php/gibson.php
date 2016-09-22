@@ -53,7 +53,7 @@ if ($params['add_number'] == 'on') {
 
 # Add Special characters, as many as requested.
 if ($params['add_symbol'] == 'on') {
-    if ($spchrLength > 1) {
+    if ($spchrLength > 0) {
         for ($x = 0; $x < $spchrLength; $x++) {
             $password = $password . chr(rand(33,47));
         }
