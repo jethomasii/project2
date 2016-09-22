@@ -7,7 +7,7 @@ http://p2.jethomasii.me
 This is my second project for CSCI E-15. It generates passcodes in the style of the famous web comic, xkcd. To do this is uses a set of commonly used words imported from csv into a php array. The rest happens through the magic of computing. 
 
 ## Demo
-Coming soon...
+https://vimeo.com/183876824
 
 ## Misc
 You just click on it, then click things, it's pretty self-explanatory.
