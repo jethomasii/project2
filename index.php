@@ -32,11 +32,12 @@
 				<label for='add_number'>Add a number</label>
 				<br>
 				<input type='checkbox' name='add_symbol' id='add_symbol' <?php echo $specialChecked ?>>
-				<label for='add_symbol'>Add a symbol</label>
-				
+				<label for='add_symbol'>Add a symbol:</label>
+				<label for='number_of_spchr'>How many:</label>
+				<input maxlength=1 type='txt' name='number_of_spchr' id='number_of_spchr' value=<?php echo $spchrLength ?>> (Max 5)
 			</p>
 
-			<input type='submit' class='btn btn-default' value='Gimme Another'>
+			<input type='submit' class='btn btn-default' value='Generate'>
 
 			
 		</form>

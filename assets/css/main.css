@@ -28,10 +28,9 @@ p.password {
     
 }
 
-p.options {
-    
-}
-
-p.details {
-    
+input[type=submit] {
+    padding: 15px;
+    background-color: #96A8C8;
+    font-size: 2rem;
+    color: white;
 }
