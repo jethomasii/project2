@@ -43,7 +43,7 @@
 		</form>
 
 		<p class='details'>
-			<a href='http://xkcd.com/936/'>xkcd password strength</a><br>
+			<a href='https://xkcd.com/936/'>xkcd password strength</a><br>
 
 			<a href='http://xkcd.com/936/'>
 				<img class='comic' src='http://imgs.xkcd.com/comics/password_strength.png' alt='xkcd style passwords'>
